@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Hunter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Superhero Hunter</h1>
+        <div>
+            <input type="text" id="searchBar" placeholder="Search for a superhero...">
+        </div>
+        <div id="favoriteIcon" style="display: none;">
+            <img src="https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-favorite-icon-png-image_927187.jpg"
+                alt="Favorite Icon" id="favoriteIndicator" class="favoriteImage">
+            <span id="favoriteCount" class="count">0</span>
+
+        </div>
+
+
+    </header>
+    <div id="favoriteModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Favorite Superheroes</h2>
+            <div>
+                <div id="favoriteCards" class="card-container"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <main id="superheroContainer"></main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script> -->
